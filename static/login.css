@@ -1,0 +1,105 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Logo */
+.logo {
+    color: #1877f2;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Main container */
+.login-container {
+    text-align: center;
+}
+
+/* Login box */
+.login-box {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Headline */
+.login-box h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1c1e21;
+}
+
+/* Input fields */
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Login button */
+.login-box button[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box button[type="submit"]:hover {
+    background-color: #166fe5;
+}
+
+/* Forgot password */
+.forgot-link {
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Create button */
+.create-btn {
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    width: 60%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+}
