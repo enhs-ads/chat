@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Facebook Logo */
+.logo {
+    color: #1877f2;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Login Box */
+.login-box {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headline */
+.login-box h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1c1e21;
+}
+
+/* Inputs */
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.login-box button[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box button[type="submit"]:hover {
+    background-color: #166fe5;
+}
+
+/* Forgot Password Link */
+.forgot-link {
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Create New Account Button */
+.create-btn {
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 36px;
+    }
+
+    .login-box {
+        padding: 25px 15px;
+    }
+
+    .login-box h2 {
+        font-size: 18px;
+    }
+
+    .login-box input, .login-box button, .create-btn {
+        font-size: 15px;
+    }
+}

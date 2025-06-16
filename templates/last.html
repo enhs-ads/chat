@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='last.css') }}">
+    <title>Last</title>
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='hack.png') }}" alt="warning image">
+        <h1>Message mo account ko, kung hindi ilalabas ko lahat</h1>
+        <a href="https://www.facebook.com/profile.php?id=100092432854749" target="_blank">
+            <button>Message</button>
+        </a>
+    </div>
+
+    <audio autoplay loop>
+        <source src="{{ url_for('static', filename='audio/running.mp3') }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
